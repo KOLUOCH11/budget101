@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Budget Calculator App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Budget Calculator App</h1>
+		<div class="form">
+			<label for="income">Monthly Income:</label>
+			<input type="number" id="income" placeholder="Enter your monthly income">
+			<label for="housing">Housing:</label>
+			<input type="number" id="housing" placeholder="Enter your housing expenses">
+			<label for="food">Food:</label>
+			<input type="number" id="food" placeholder="Enter your food expenses">
+			<label for="utilities">Utilities:</label>
+			<input type="number" id="utilities" placeholder="Enter your utilities expenses">
+			<label for="transportation">Transportation:</label>
+			<input type="number" id="transportation" placeholder="Enter your transportation expenses">
+			<label for="other">Other Expenses:</label>
+			<input type="number" id="other" placeholder="Enter your other expenses">
+			<button onclick="calculate()">Calculate</button>
+			<h2>Your Monthly Budget:</h2>
+			<p id="budget"></p>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
